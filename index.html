@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Excel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mini Excel</h1>
+    <table>
+        <thead>
+          <tr>
+            <th class="grey"></th>
+            <th class="columns">A</th>
+            <th class="columns">B</th>
+            <th class="columns">C</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rows">1</td>
+            <td><input type="text" id="a1" /></td>
+            <td><input type="text" id="b1" /></td>
+            <td><input type="text" id="c1" /></td>
+          </tr>
+          <tr>
+            <td class="rows">2</td>
+            <td><input type="text" id="a2" /></td>
+            <td><input type="text" id="b2" /></td>
+            <td><input type="text" id="c2" /></td>
+          </tr>
+          <tr >
+            <td class="rows">3</td>
+            <td><input type="text" id="a3" /></td>
+            <td><input type="text" id="b3" /></td>
+            <td><input type="text" id="c3" /></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="rows">Suma</td>
+            <td id="sumA"></td>
+            <td id="sumB"></td>
+            <td id="sumC"></td>
+          </tr>
+          <tr>
+            <td class="rows">Średnia</td>
+            <td id="avgA"></td>
+            <td id="avgB"></td>
+            <td id="avgC"></td>
+          </tr>
+        </tfoot>
+
+    <script src="script.js"></script>
+  </body>
+</html>
